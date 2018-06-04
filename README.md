@@ -15,7 +15,7 @@ A homebrew starter pack & guide for the Nintendo Switch.
 4. Run `Zadig.exe` with the appropriate permissions.
 5. From the device list, choose `APX` (if it's not showing up in the list, go to Options menu and check List All Devices)
 6. For the driver type, use the arrows to navigate until you see `libusbK (v3.0.7.0)`
-7. Click the big `Install Driver` button. Device Manager should now list `APX` under the `libusbK USB Devices tree item.
+7. Click the big `Install Driver` button. Device Manager should now list `APX` under the `libusbK USB Devices` tree item.
 8. Depending on your processor type (32-bit or 64-bit), run the relevant `boot_cfw_win*.bat`.
 9. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
 
