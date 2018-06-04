@@ -1,5 +1,5 @@
-# NX-StarterPack
-A homebrew starter pack & guide for the Nintendo Switch
+# NX-Starterpack
+A homebrew starter pack & guide for the Nintendo Switch.
 
 ## What you will need:
 * A "first generation" Switch. (Vulnerable to Fusee Gelee / shofEL2)
@@ -9,14 +9,15 @@ A homebrew starter pack & guide for the Nintendo Switch
 * An microSD card 2GB or larger, formatted to either FAT32, or exFAT (only if your switch has the exFAT support "update")
 
 ## Getting Started:
-1. Copy the files in the `sd_root` folder to the root of your Switch's SD Card.
-2. Enter RCM mode on your Switch and plug it into your PC.
-3. Run `Zadig.exe` with the appropriate permissions.
-4. From the device list, choose `APX` (if it's not showing up in the list, go to Options menu and check List All Devices)
-5. For the driver type, use the arrows to navigate until you see `libusbK (v3.0.7.0)`
-6. Click the big `Install Driver` button. Device Manager should now list `APX` under the `libusbK USB Devices tree item.
-7. Depending on your processor type (32-bit or 64-bit), run the relevant `boot_cfw_win*.bat`.
-8. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
+1. Download the zip file of this repo.
+2. Copy the files in the `sd_root` folder to the root of your Switch's SD Card.
+3. Enter RCM mode on your Switch and plug it into your PC.
+4. Run `Zadig.exe` with the appropriate permissions.
+5. From the device list, choose `APX` (if it's not showing up in the list, go to Options menu and check List All Devices)
+6. For the driver type, use the arrows to navigate until you see `libusbK (v3.0.7.0)`
+7. Click the big `Install Driver` button. Device Manager should now list `APX` under the `libusbK USB Devices tree item.
+8. Depending on your processor type (32-bit or 64-bit), run the relevant `boot_cfw_win*.bat`.
+9. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
 
 ## Included Homebrew:
 * [2048](https://github.com/BernardoGiordano/2048/), a homebrew port of the popular game of the same name.
@@ -28,7 +29,13 @@ A homebrew starter pack & guide for the Nintendo Switch
 
 ## Tools Used:
 * [CTCaer's hekate fork](https://github.com/CTCaer/hekate)
-* [Pieces of Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
+* [Pieces of Atmosphére](https://github.com/Atmosphere-NX/Atmosphere)
 * [TegraRCMSmash](https://github.com/rajkosto/TegraRcmSmash)
 
-
+## Credits:
+* [ReSwitched](https://reswitched.tech/) for fusée gelee & [libtransistor](https://github.com/reswitched/libtransistor).
+* [Switchbrew](https://github.com/switchbrew/) for [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu) & [libnx](https://github.com/switchbrew/libnx).
+* [naehrwert](https://github.com/nwert) for [hekate](https://github.com/nwert/hekate).
+* [CTCaer](https://github.com/CTCaer/) for their [hekate fork](https://github.com/CTCaer/hekate).
+* [SciresM](https://github.com/SciresM), [TuxSH](https://github.com/TuxSH), [hexkyz](https://github.com/hexkyz) and co. for [Atmosphére](https://github.com/Atmosphere-NX/Atmosphere)
+* The developers of all the included homebrew.
