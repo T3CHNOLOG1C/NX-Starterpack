@@ -40,6 +40,7 @@ The files included in this guide work around three of the biggest issues with Sw
 * [TegraRCMSmash](https://github.com/rajkosto/TegraRcmSmash)
 * [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu)
 * [nx-dreport](https://github.com/Thog/nx-dreport)
+* [Zadig](https://github.com/pbatard/libwdi), part of libwdi.
 
 ## Credits:
 * [ReSwitched](https://reswitched.tech/) for fusée gelée & [libtransistor](https://github.com/reswitched/libtransistor).
