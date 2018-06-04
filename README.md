@@ -7,7 +7,7 @@ The files included in this guide work around two of the biggest issues with Swit
 * You don't need to reboot after using homebrew to play games.
 
 ## What you will need:
-* A "first generation" Switch. (Vulnerable to Fusee Gelee / shofEL2)
+* A "first generation" Switch. (Vulnerable to Fusée Gelée / shofEL2)
 * A way to put your Switch into RCM [see this guide for more information](https://xghostboyx.github.io/RCM-Guide/)
 * A host PC running Windows (Guide may be updated for macOS/Linux/Androud support at a later date)
 * A USB 3.0 (usually blue) port on your host pc and a USB-C to A or USB-C to USB-C (if your pc has USB-C)
