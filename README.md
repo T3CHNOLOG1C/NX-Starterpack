@@ -1,6 +1,10 @@
 # NX-Starterpack
 A homebrew starter pack & guide for the Nintendo Switch.
 This guide will boot you into a "custom firmware" using a combination of the hekate bootloader and Atmosphére CFW.
+This has only been tested on firmware 5.0.2, but theoretically should work on all firmware versions. (Individual App compatibility may vary).
+The files included in this guide work around two of the biggest issues with Switch homebrew.
+* Sleep mode works.
+* You don't need to reboot after using homebrew to play games.
 
 ## What you will need:
 * A "first generation" Switch. (Vulnerable to Fusee Gelee / shofEL2)
