@@ -1,10 +1,12 @@
 # NX-Starterpack
 A homebrew starter pack & guide for the Nintendo Switch.
-This guide will boot you into a "custom firmware" using a combination of the hekate bootloader and Atmosphére CFW.
+This guide will boot you into a "custom firmware" using a combination of the hekate bootloader and Atmosphére CFW. In addition, crash reports are cleared on boot using nx-dreport.
 This has only been tested on firmware 5.0.2, but theoretically should work on all firmware versions. (Individual App compatibility may vary).
-The files included in this guide work around two of the biggest issues with Switch homebrew.
+
+The files included in this guide work around three of the biggest issues with Switch homebrew:
 * Sleep mode works.
 * You don't need to reboot after using homebrew to play games.
+* Homebrew crashes stay in the crash logs
 
 ## What you will need:
 * A "first generation" Switch. (Vulnerable to Fusée Gelée / shofEL2)
@@ -36,9 +38,11 @@ The files included in this guide work around two of the biggest issues with Swit
 * [CTCaer's hekate fork](https://github.com/CTCaer/hekate)
 * [Pieces of Atmosphére](https://github.com/Atmosphere-NX/Atmosphere)
 * [TegraRCMSmash](https://github.com/rajkosto/TegraRcmSmash)
+* [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu)
+* [nx-dreport](https://github.com/Thog/nx-dreport)
 
 ## Credits:
-* [ReSwitched](https://reswitched.tech/) for fusée gelee & [libtransistor](https://github.com/reswitched/libtransistor).
+* [ReSwitched](https://reswitched.tech/) for fusée gelée & [libtransistor](https://github.com/reswitched/libtransistor).
 * [Switchbrew](https://github.com/switchbrew/) for [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu) & [libnx](https://github.com/switchbrew/libnx).
 * [naehrwert](https://github.com/nwert) for [hekate](https://github.com/nwert/hekate).
 * [CTCaer](https://github.com/CTCaer/) for their [hekate fork](https://github.com/CTCaer/hekate).
