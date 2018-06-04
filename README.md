@@ -1,5 +1,6 @@
 # NX-Starterpack
 A homebrew starter pack & guide for the Nintendo Switch.
+This guide will boot you into a "custom firmware" using a combination of the hekate bootloader and Atmosphére CFW.
 
 ## What you will need:
 * A "first generation" Switch. (Vulnerable to Fusee Gelee / shofEL2)
@@ -39,3 +40,4 @@ A homebrew starter pack & guide for the Nintendo Switch.
 * [CTCaer](https://github.com/CTCaer/) for their [hekate fork](https://github.com/CTCaer/hekate).
 * [SciresM](https://github.com/SciresM), [TuxSH](https://github.com/TuxSH), [hexkyz](https://github.com/hexkyz) and co. for [Atmosphére](https://github.com/Atmosphere-NX/Atmosphere)
 * The developers of all the included homebrew.
+* [Plailect](https://github.com/Plailect) for inspiring me to write guides.
