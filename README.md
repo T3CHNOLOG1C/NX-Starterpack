@@ -11,7 +11,7 @@ The files included in this guide work around three of the biggest issues with Sw
 ## What you will need:
 * A "first generation" Switch. (Vulnerable to Fusée Gelée / shofEL2)
 * A way to put your Switch into RCM [see this guide for more information](https://xghostboyx.github.io/RCM-Guide/)
-* A host PC running Windows (Guide may be updated for macOS/Linux/Androud support at a later date)
+* A host PC running Windows (Guide may be updated for macOS/Linux/Android support at a later date)
 * A USB 3.0 (usually blue) port on your host pc and a USB-C to A or USB-C to USB-C (if your pc has USB-C)
 * An microSD card 2GB or larger, formatted to either FAT32, or exFAT (only if your switch has the exFAT support "update")
 
