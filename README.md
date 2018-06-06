@@ -11,11 +11,11 @@ The files included in this guide work around three of the biggest issues with Sw
 ## What you will need:
 * A "first generation" Switch. (Must be vulnerable to fusée gelée, all current Switches are but there may be a hardware revision soon)
 * A way to put your Switch into RCM [see this guide for more information](https://xghostboyx.github.io/RCM-Guide/)
-* A host PC running Windows (Guide may be updated for macOS/Linux/Android support at a later date)
+* A host PC running Windows, Linux or Mac OS
 * A USB 3.0 (usually blue) port on your host pc and a USB-C to A or USB-C to USB-C (if your pc has USB-C)
 * An microSD card 2GB or larger, formatted to either FAT32, or exFAT (only if your switch has the exFAT support "update")
 
-## Getting Started:
+## Getting Started Windows:
 1. Download the zip file of this repo.
 2. Copy the files in the `sd_root` folder to the root of your Switch's SD Card.
 3. Enter RCM mode on your Switch and plug it into your PC.
@@ -25,6 +25,15 @@ The files included in this guide work around three of the biggest issues with Sw
 7. Click the big `Install Driver` button. Device Manager should now list `APX` under the `libusbK USB Devices` tree item.
 8. Depending on your processor type (32-bit or 64-bit), run the relevant `boot_cfw_win*.bat`.
 9. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
+
+## Getting Started Mac/Linux:
+1. Download the zip file of this repo.
+2. Copy the files in the `sd_root` folder to the root of your Switch's SD Card.
+4. Ensure you have `python3` installed http://docs.python-guide.org/en/latest/starting/installation/
+5. Ensure you have `pyusb` installed https://github.com/pyusb/pyusb installed
+6. Enter RCM mode on your Switch and plug it into your Computer.
+7. Open terminal in the root of this folder and execute ```sudo python3 ./fusee-launcher.py bin/payload.bin```
+8. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
 
 ## Included Homebrew:
 * [2048](https://github.com/BernardoGiordano/2048/), a homebrew port of the popular game of the same name.
